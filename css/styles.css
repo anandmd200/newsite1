@@ -1,7 +1,7 @@
-.img{
-  margin-top: 500px;
+.backimage{
   align-items: center;
   width: 100%;
+  height: auto;
 }
 p{
   font-size: 10px;
@@ -28,18 +28,17 @@ h2{
   position: absolute;
   background-color: #9fd8df;
   width: 100%;
-  height: 150%;
+  height: 100%;
   text-align: center;
   transition: 1s;
   transform-origin: 0;
 }
-.backimage{
-  width: 100%;
-  height: 150%;
-  margin: 0;
-  padding: 0;
+hr{
+  border: dotted #E4F9F5 6px;
+  border-bottom: none;
+  width: 4%;
+  /* margin: 100px auto; */
 }
-
 .open-card {
   transform: rotateY(90deg);
 }
@@ -91,6 +90,11 @@ h2{
   font-size: 12pt;
   text-align: center;
 }
+.footer{
+  background-color: green;
+  margin-top: 200%;
+  height: 500px;
+}
 
 .butten {
    background: #11999E;
@@ -110,6 +114,7 @@ h2{
    font-size: 14px;
    font-weight: 100;
    padding: 20px;
+   margin: 30px;
 
    border: solid #337FED 1px;
    text-decoration: none;
