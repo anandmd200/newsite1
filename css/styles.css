@@ -28,7 +28,7 @@ h2{
   position: absolute;
   background-color: #9fd8df;
   width: 100%;
-  height: auto;
+  height: 100%;
   text-align: center;
   transition: 1s;
   transform-origin: 0;
@@ -67,8 +67,6 @@ hr{
   z-index: 0;
   position: absolute;
   background-color: #9fd8df;
-  width: 100%;
-  height: auto;
   text-align: center;
 }
 
